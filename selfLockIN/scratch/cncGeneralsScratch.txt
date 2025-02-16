@@ -1,0 +1,56 @@
+/*
+Structure
+
+Units Class
+    - unit_type
+    - unit_cost
+    - unit_damage (0 for transport or recon)
+    - unit_slogan
+
+    SubClass USA
+        - subClass Infantry
+            - subClass Assault
+            - subClass Recon
+        - subClass Vehicles
+            - subClass Assault
+            - subClass Transport
+        - subClass Air Units
+            - subClass Assault
+            - subClass Transport
+
+    SubClass China
+        - (similar structure as USA)
+
+    SubClass GLA
+        - (similar structure as USA)
+
+Desired Output: 
+init Scanner
+init Units
+
+init max_quantity
+init total_cost
+
+Welcome, general. We are ready for your command.
+
+Choose your faction (USA, China, GLA)
+if valid_faction
+    choose your unit structure (barracks, war factory, airfield)
+    choose your unit (list options, unit type, unit subtype)
+        display_description (show type, damage, cost)
+        confirm_build?
+            show_slogan
+            + quantity
+            + price
+
+    if quantity <= max_quantity 
+        show total cost
+        proceed_with_battle?
+    else
+        display_error("Quantity exceeds maximum")
+
+else
+    display_error("Invalid faction selected")
+
+Repeat for China and GLA with similar logic
+*/
