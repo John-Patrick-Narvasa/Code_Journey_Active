@@ -1,0 +1,259 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "petShop",
+      "request": "launch",
+      "mainClass": "petShop",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "Dump/pythonKey.test",
+      "projectName": "Dump"
+    },
+    {
+      "type": "java",
+      "name": "ArrayAssessment",
+      "request": "launch",
+      "mainClass": "FOP/Arrays.ArrayAssessment",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "CommonElements",
+      "request": "launch",
+      "mainClass": "FOP/Arrays.CommonElements",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "CommonElementsInSortedArrays",
+      "request": "launch",
+      "mainClass": "FOP/Arrays.CommonElementsInSortedArrays",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "maxNum",
+      "request": "launch",
+      "mainClass": "FOP/Arrays.maxNum",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "ConditionalStatement1",
+      "request": "launch",
+      "mainClass": "FOP/Conditions.ConditionalStatement1",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "ConditionalStatement2",
+      "request": "launch",
+      "mainClass": "FOP/Conditions.ConditionalStatement2",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "CD",
+      "request": "launch",
+      "mainClass": "FOP/Methods.CD",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "CylinderVolume",
+      "request": "launch",
+      "mainClass": "FOP/Methods.CylinderVolume",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "Dozen",
+      "request": "launch",
+      "mainClass": "FOP/Methods.Dozen",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "JavaMethod1",
+      "request": "launch",
+      "mainClass": "FOP/Methods.JavaMethod1",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "JavaRocksMess",
+      "request": "launch",
+      "mainClass": "FOP/Methods.JavaRocksMess",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "RecursionFactiorial",
+      "request": "launch",
+      "mainClass": "FOP/Methods.RecursionFactiorial",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "FOP/Methods.factorial",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "primeNumberConfirm",
+      "request": "launch",
+      "mainClass": "FOP/Methods.primeNumberConfirm",
+      "projectName": "FOP"
+    },
+    {
+      "type": "java",
+      "name": "BuyPetshop",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Constructors.BuyPetshop",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "cncGenerals",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Constructors.cncGenerals",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "petShop",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Constructors.petShop",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "rec",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Constructors.rec",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "brainRot",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Packages.brainRot",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "SumOfNums",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Recursion.SumOfNums",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "factorial(1)",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Recursion.factorial",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "numPattern",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Recursion.numPattern",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "towrOfHanoi",
+      "request": "launch",
+      "mainClass": "IntermediateProg/Recursion.towrOfHanoi",
+      "projectName": "IntermediateProg"
+    },
+    {
+      "type": "java",
+      "name": "Calculator1",
+      "request": "launch",
+      "mainClass": "MyProjects/Calc.Calculator1",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "Blah",
+      "request": "launch",
+      "mainClass": "MyProjects/Calc.ShapeCalc.Blah",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "ShapeAreaCalc",
+      "request": "launch",
+      "mainClass": "MyProjects/Calc.ShapeCalc.ShapeAreaCalc",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "rec(1)",
+      "request": "launch",
+      "mainClass": "MyProjects/Calc.ShapeCalc.rec",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "MyProjects/MathPatterns.Fibonacci",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "MathPatterns",
+      "request": "launch",
+      "mainClass": "MyProjects/MathPatterns.MathPatterns",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "TowerOfHanoi",
+      "request": "launch",
+      "mainClass": "MyProjects/MathPatterns.TowerOfHanoi",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "hello",
+      "request": "launch",
+      "mainClass": "MyProjects/MathPatterns.hello",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "_test",
+      "request": "launch",
+      "mainClass": "MyProjects/NumericalMethods._test",
+      "projectName": "MyProjects"
+    },
+    {
+      "type": "java",
+      "name": "ticTacToe",
+      "request": "launch",
+      "mainClass": "MyProjects/ticTacToe.ticTacToe",
+      "projectName": "MyProjects"
+    }
+  ]
+}
