@@ -1,19 +1,56 @@
-**1st prompt.** 
+# 1st prompt
 
-**1.1**
-Hello, I want you to follow the subject, coverage and prompt mentioned below:
+
+## Starting RN
+
+	here are the topics we have already tackled in java programming: 
+
+	conditions
+	loops
+	arrays
+	methods
+	string manipulation
+	recursion
+
+
+	now, list some programs we can make using packages
+
+
+
+	what about a list of programs that is more on mathematical puzzles and patterns using packages
+
+
+
+
+**1.1 (First Batch Convo)**
+
+## Initializing Formula (setting up context)
+	Here are the topics we have already tackled in java programming: 
+
+	[topic 1]
+	[topic 2]
+	[topic 3]
+	[topic 4]
+	[topic 5]
+
+
+	now, list some programs we can make using [future topic]
+
+	what about a list of programs that is more on mathematical puzzles and patterns using [future topic]
+
+	Hello, I want you to follow the subject, coverage and prompt mentioned below:
 
 ## FORM
-Topic : 
-Specific coverages: 
-Difficulty: 
-Number of Items:
-Scale: 
+	Topic : 
+	Specific coverages: 
+	Difficulty: 
+	Number of Items:
+	Scale: 
 
-Test Style/s:
-Conditions: 
-Desired Output (optional paste):
-Time Limit (in minutes):
+	Test Style/s:
+	Conditions: 
+	Desired Output (optional paste):
+	Time Limit (in minutes):
 
 
 *Fill out the form first based from the "CHOICES: " portion below* 
@@ -62,7 +99,7 @@ Summary
 
 ---
 
-**2nd prompt (Post).** 
+# 2nd prompt (Post) 
 Document and Summarize everything about all the pre existing context of the quizzes you have made with an emphasis to the edge cases being considered with simple examples 
 
 
@@ -135,6 +172,7 @@ variable 1 | variable 2 | variable 3 | variable... | Output
 - Difference Order
 - Difference Table
 - Extended Factorial Notation
+
 - Newton's Advancing Formula
 - Newton's Advancing Formula of different Origins
 - Divided Difference
@@ -253,7 +291,6 @@ additional prompt (for configurations)...
 
 - Code Read/Simulation [mystery program, have to figure out what is that program]
 - Code Puzzles [basic concepts and programs with modifications and variations]
-
 
 **1.2**
 
