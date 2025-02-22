@@ -1,5 +1,5 @@
 package Array;
-import ArrayOperations.*;
+import ArrayOperations.arrayOps;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +25,6 @@ public class Main {
         arrayOps.update(nums, 1, 99);
         
         // Display − Displays the contents of the array.
-        arrayOps.display(nums);
+        arrayOps.display(nums); // used by insert, delete, search operations above
     }
 }

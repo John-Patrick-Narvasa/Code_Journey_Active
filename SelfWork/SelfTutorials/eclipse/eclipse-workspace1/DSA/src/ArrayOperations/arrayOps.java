@@ -30,6 +30,7 @@ public class arrayOps {
             System.out.println("Invalid index!");
             return arr;
         }
+        
         int[] newArr = new int[arr.length - 1];
         for (int i = 0, j = 0; i < arr.length; i++) {
             if (i == index) continue;
