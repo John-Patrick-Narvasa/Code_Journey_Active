@@ -1,6 +1,6 @@
 # Code_Journey_Active
 
-this is where I put some of my ideas and temporary school works.
+This is where I put some of my ideas and temporary school works.
 
 ## Goal
   - [ ]  Make scripts for automating messages (Test on my own profile in messenger)
