@@ -25,6 +25,6 @@ public class Main {
         arrayOps.update(nums, 1, 99);
         
         // Display − Displays the contents of the array.
-        arrayOps.display(nums); // used by insert, delete, search operations above
+        arrayOps.display(nums); // used by insert and delete operations above
     }
 }
