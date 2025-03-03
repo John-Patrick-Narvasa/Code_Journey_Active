@@ -11,6 +11,7 @@
 	methods
 	string manipulation
 	recursion
+	packages and modifiers
 
 
 	now, list some programs we can make using packages
