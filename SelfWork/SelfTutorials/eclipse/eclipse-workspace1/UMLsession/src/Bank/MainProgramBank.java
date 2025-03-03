@@ -1,0 +1,21 @@
+package Bank;
+
+public class MainProgramBank {
+	public static void main(String[] args) {
+		BankAccount ba1 = new BankAccount("09238102398", 10_000);
+		
+		ba1.accountStatus();
+		
+		System.out.println("\n");
+		ba1.withdraw(100);
+		ba1.accountStatus();
+		
+		System.out.println("\n");
+		ba1.deposit(900);
+		ba1.accountStatus();
+
+		System.out.println("\n");
+		ba1.withdraw(20000);
+		ba1.accountStatus();
+	}
+}

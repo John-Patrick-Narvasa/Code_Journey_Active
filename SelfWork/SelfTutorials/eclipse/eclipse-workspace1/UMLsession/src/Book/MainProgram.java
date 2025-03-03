@@ -1,0 +1,17 @@
+package Book;
+
+public class MainProgram {
+	public static void main(String[] args) {
+		Book book1 = new Book("Java Data Structures", "F. Scott Fitzgerald", "092834094802");
+		
+		book1.getStatus();
+		
+		System.out.println("\n");
+		book1.borrow();
+		book1.getStatus();
+		
+		System.out.println("\n");
+		book1.returnBook();
+		book1.getStatus();
+	}
+}
