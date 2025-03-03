@@ -3,13 +3,13 @@ package Student;
 public class Studentinfo{
         String name;
         int age;
-        char gender;
+        String gender;
         String address;
         int contactNumber;
         String fatherName;
         String motherName;
         
-        public Studentinfo(String name, int age, char gender, String address, int contactNumber, String fatherName, String motherName) {
+        public Studentinfo(String name, int age, String gender, String address, int contactNumber, String fatherName, String motherName) {
                 this.name = name;
                 this.age = age;
                 this.gender = gender;

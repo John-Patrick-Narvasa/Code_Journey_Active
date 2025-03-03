@@ -8,7 +8,7 @@ import Student.Acadinfo;
 public class MainProgram {
 	public static void main(String[] args) {
 		// student 1 
-		Studentinfo student1 = new Studentinfo("Jordie Polie", 25, 'M', "IRAN", 9320756, "Mr. James Bond", "Mrs. Vice Ganda");
+		Studentinfo student1 = new Studentinfo("Jordie Polie", 25, "M", "IRAN", 9320756, "Mr. James Bond", "Mrs. Vice Ganda");
 		Employeeinfo employee1 = new Employeeinfo();
 		Acadinfo acad1 = new Acadinfo(2468, 90, 90, 100, 95, 100);
 		
@@ -26,8 +26,8 @@ public class MainProgram {
 		
 		System.out.println("NEXT STUDENT\n");
 		
-		// student 1
-		Studentinfo student2 = new Studentinfo("Hope Elizabeth", 28, 'F', "Iraq", 9320756, "Mr. Bong Go ", "Mrs. Gal Gadot");
+		// student 2
+		Studentinfo student2 = new Studentinfo("Hope Elizabeth", 28, "F", "Iraq", 9320756, "Mr. Bong Go ", "Mrs. Gal Gadot");
 		Employeeinfo employee2 = new Employeeinfo();
 		Acadinfo acad2 = new Acadinfo(13579, 80, 80, 85, 90, 98);
 		

@@ -1,4 +1,4 @@
-package obj_class;
+package obj_tClass;
 
 // template attributes
 public class Car {

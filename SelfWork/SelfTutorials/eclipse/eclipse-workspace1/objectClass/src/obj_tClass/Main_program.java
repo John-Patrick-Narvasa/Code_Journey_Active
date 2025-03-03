@@ -1,4 +1,4 @@
-package obj_class;
+package obj_tClass;
 import java.text.DecimalFormat;
 public class Main_program {
 	public static void main(String[] args) {
