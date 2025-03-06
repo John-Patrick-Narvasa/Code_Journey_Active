@@ -1,0 +1,32 @@
+package StudentGrades;
+
+public class MainProgGrades {
+	public static void main(String[] args) {
+		Student student1 = new Student("Peter", 98);
+		double grade = student1.getGrade();
+		
+		System.out.println("Name: " + student1.getName());
+		System.out.println("Grade: " + student1.getGrade());
+		String letterGrade = "";
+		if (grade <= 100 || grade >= 90) {
+			letterGrade = "A";
+		}
+		else if (grade <= 89 || grade >= 80) {
+			letterGrade = "B";
+		}
+		else if (grade <= 79 || grade >= 70) {
+			letterGrade = "C";
+		}
+		else if (grade <= 69 || grade >= 60) {
+			letterGrade = "D";
+		}
+		else {
+			letterGrade = "F";
+		}
+		
+		System.out.println("Letter Grade: " + letterGrade);
+		student1.setGrade(59.00);
+		System.out.println("Letter Grade: " + letterGrade);
+	}
+	
+}

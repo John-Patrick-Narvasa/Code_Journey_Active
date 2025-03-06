@@ -1,0 +1,13 @@
+INDEX VERSION 1.134+G:\My Drive\_CodeSpace\Code_Journey_Active\SelfWork\SelfTutorials\eclipse\eclipse-workspace1\.metadata\.plugins\org.eclipse.jdt.core
+403805531.index
+4003465482.index
+3355614282.index
+1865797976.index
+4259042512.index
+1524206171.index
+3315145373.index
+3504076300.index
+521301484.index
+1529308362.index
+1091056936.index
+1195455883.index

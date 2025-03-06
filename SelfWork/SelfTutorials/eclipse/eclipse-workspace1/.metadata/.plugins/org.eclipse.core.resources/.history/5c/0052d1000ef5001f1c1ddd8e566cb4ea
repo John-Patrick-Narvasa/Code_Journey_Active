@@ -1,0 +1,36 @@
+package Details;
+
+public class BankAccount {
+	public String accountNumber;
+	public String accountHolder;
+	public double balance;
+	
+	public double getBalance() {
+		return balance;
+	}
+	
+	public void deposit(double amount) {
+		double deposit = 0;
+		this.balance = getBalance();
+		balance = balance + deposit;
+		
+		System.out.println(balance);
+	}
+	
+	public void withdraw(double amount) {
+		double withdraw = 0;
+		this.balance = getBalance();
+		balance = balance - withdraw;
+		
+		System.out.println(balance);
+	}
+	
+	public void displayAccountInfo() {
+		System.out.println(
+				"Account No.: " + accountNumber + "\n"
+				+ "Account Holder: " + accountHolder + "\n"
+				+ "Balance: " + balance
+				);
+	}
+	
+}

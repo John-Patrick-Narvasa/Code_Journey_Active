@@ -1,0 +1,9 @@
+package StudentGrades;
+
+public class MainProgGrades {
+	public static void main(String[] args) {
+		Student student1 = new Student("Peter", 98);
+		
+		System.out.println("Name: " + student1.getName());
+	}
+}

@@ -1,0 +1,8 @@
+package shoppingCartSystem;
+
+public class MainProgShopCart {
+	ShoppingCart cart1 = new ShoppingCart();
+	
+	cart1.addItem(new Item("banana", 0.95, 5));
+	cart1.displayCart();
+}

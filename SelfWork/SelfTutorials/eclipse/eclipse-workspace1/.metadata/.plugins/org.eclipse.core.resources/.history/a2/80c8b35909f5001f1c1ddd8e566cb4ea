@@ -1,0 +1,19 @@
+package main;
+
+import java.text.DecimalFormat;
+import Details.BankAccount;
+
+public class MainProgram {
+
+	public static void main(String[] args) {
+		DecimalFormat df = new DecimalFormat("###,###.##");
+		BankAccount Peter = new BankAccount();
+		
+		Peter.accountNumber = "8102948129049";
+		Peter.accountHolder = "Peter Parker";
+		Peter.balance = 1_345_987.98;
+		
+		Peter.displayAccountInfo();
+	}
+
+}

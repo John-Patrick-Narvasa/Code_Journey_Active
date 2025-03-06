@@ -1,0 +1,48 @@
+class Student {
+	String name;
+	int age;
+	double grade;
+    
+	//setters
+	public void setName(String name) {
+    	this.name = name;
+	}
+	public void setAge(int age) {
+    	this.age = age;
+	}
+	public void setGrade(double grade) {
+    	this.grade = grade;
+	}
+    
+	//getters
+	public String getName() {
+    	return name;
+	}
+	public int getAge() {
+    	return age;
+	}
+	public double getGrade() {
+    	return grade;
+	}
+    
+	//display
+	public void displayStudentInfo() {
+    	System.out.println(
+        	"Name: " + name + "\n"
+        	+ "Age: " + age + "\n"
+        	+ "Grade: " + grade
+        	);
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+    	Student bro = new Student();
+   	 
+    	bro.name = "Dave";
+    	bro.age = 14;
+    	bro.grade = 95.6;
+   	 
+    	bro.displayStudentInfo();
+	}
+}

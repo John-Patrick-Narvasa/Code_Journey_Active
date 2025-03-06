@@ -1,0 +1,55 @@
+package obj_tclass;
+import java.text.DecimalFormat;
+public class Main_program {
+	public static void main(String[] args) {
+		Car kotse = new Car(); // 1. instantiate 
+		Car auto = new Car(); 
+		DecimalFormat df = new DecimalFormat("###,###.##");
+		// 2 objects in total (1 blueprint can make many houses)
+//		Car auto;
+//		auto = new Car(); another way to instantiate
+		kotse.make= "TOYOTA";
+		kotse.color= "Gray";
+		kotse.model= 2014;
+		kotse.displacement= 2500;
+		kotse.type="SUV";
+		kotse.fuelCapacity= 45;
+		kotse.fuelBurnRate= 20.5;
+		
+		auto.make= "HONDA";
+		auto.color= "Red";
+		auto.model= 2009;
+		auto.displacement= 1300;
+		auto.type="Sedan";
+		auto.fuelCapacity= 30;
+		auto.fuelBurnRate= 10.5;
+		
+		
+		System.out.println(kotse.make);
+		System.out.println(kotse.color);
+		System.out.println(kotse.model);
+		System.out.println(kotse.displacement);
+		System.out.println(kotse.type);
+		System.out.println(kotse.fuelCapacity);
+		System.out.println(kotse.fuelBurnRate);
+		//kotse.calculateDistance();
+		System.out.println("Travel distance for "+ kotse.make + " is " + df.format(kotse.calculateDistance()));
+		System.out.println("For "+ kotse.make + " to travel 5.25 hours, it takes " + df.format(kotse.fuelNeeded(5.25)) + " Liters of gas");
+		
+		System.out.println();
+		
+		System.out.println(auto.make);
+		System.out.println(auto.color);
+		System.out.println(auto.model);
+		System.out.println(auto.displacement);
+		System.out.println(auto.type);
+		System.out.println(auto.fuelCapacity);
+		System.out.println(auto.fuelBurnRate);
+		System.out.println("Travel distance for "+ auto.make + " is " + df.format(kotse.calculateDistance()));
+		System.out.println("For "+ auto.make + " to travel 5.25 hours, it takes " + df.format(auto.fuelNeeded(5.25)) + " Liters of gas");
+		
+		//auto.calculateDistance();
+		// not the most efficient way to access attributes in an object
+		
+	}
+}

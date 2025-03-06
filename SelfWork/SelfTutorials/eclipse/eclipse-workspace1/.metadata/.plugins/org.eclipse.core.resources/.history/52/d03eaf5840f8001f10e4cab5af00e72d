@@ -1,0 +1,16 @@
+package EmployeeManagement;
+
+
+public class MainProgEmploy {
+	public static void main(String[] args) {
+		Employee emp = new Employee("Albert", 178, 50_000);
+		
+		System.out.print(
+						"Name: " + emp.getName() + "\n"
+ 						+ "ID: " + emp.getId() + "\n"
+ 						+ "Salary: " + emp.getSalary()
+				);
+		
+		emp.raiseSalary(100);
+	}
+}

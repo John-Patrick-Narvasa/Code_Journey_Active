@@ -1,0 +1,9 @@
+package Bank;
+
+public class MainProgramBank {
+	public static void main(String[] args) {
+		BankAccount ba1 = new BankAccount("09238102398", 10_000);
+		
+		ba1.accountStatus();
+	}
+}

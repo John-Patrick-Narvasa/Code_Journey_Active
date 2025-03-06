@@ -1,0 +1,84 @@
+class Book {
+	private String title;
+	private String author;
+	private int pages;
+	private boolean isAvailable;
+    
+	// setters
+	public void setTitle(String title) {
+    	this.title = title;
+	}
+	public void setAuthor(String author) {
+    	this.author = author;
+	}
+	public void setPages(int pages) {
+    	this.pages = pages;
+	}
+	public void setIsAvailable(boolean isAvailable) {
+    	this.isAvailable = isAvailable;
+	}
+    
+	// getters
+	public String getTitle() {
+    	return title;
+	}
+	public String getAuthor() {
+    	return author;
+	}
+	public int getPages() {
+    	return pages;
+	}
+	public boolean isAvailable() {
+    	return isAvailable;
+	}
+    
+	// methods
+	public void borrowBook() {
+    	if (isAvailable) {
+        	System.out.println("Borrowing the book...");
+        	System.out.println("Book borrowed successfully!");
+        	isAvailable = false;
+    	} else {
+        	System.out.println("The book is not available for borrowing.");
+    	}
+	}
+    
+	public void returnBook() {
+    	if (!isAvailable) {
+        	System.out.println("Returning the book...");
+        	System.out.println("Book returned successfully");
+        	isAvailable = true;
+    	} else {
+        	System.out.println("The book is already available.");
+    	}
+	}
+    
+	public void displayBookInfo() {
+    	System.out.println(
+        	"Book title: " + title + "\n"
+        	+ "Author: " + author + "\n"
+        	+ "Pages: " + pages + "\n"
+        	+ "Status: " + (isAvailable ? "Available" : "Not Available")
+    	);
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+    	Book book1 = new Book();
+   	 
+    	book1.setTitle("The Great Gatsby");
+    	book1.setAuthor("F. Scott Fitzgerald");
+    	book1.setPages(180);
+    	book1.setIsAvailable(true);
+   	 
+    	book1.displayBookInfo();
+   	 
+    	book1.borrowBook();
+    	book1.displayBookInfo();
+   	 
+    	book1.returnBook();
+    	book1.displayBookInfo();
+	}
+}
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;factorial.java&apos; to &apos;IntermediateProg/src/Recursion&apos;&#x0D;&#x0A;- Original project: &apos;FOP&apos;&#x0D;&#x0A;- Destination element: &apos;IntermediateProg/src/Recursion&apos;&#x0D;&#x0A;- Original element: &apos;Methods.factorial.java&apos;" description="Copy compilation unit" destination="=IntermediateProg/src&lt;Recursion" element1="/src&lt;Methods{factorial.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1739329058555" units="1" version="1.0"/>
+</session>
